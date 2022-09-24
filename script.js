@@ -11,7 +11,7 @@
       }
 
       function conta(){
-        var num = prompt("Digite um numero")
+        var num = prompt("Digite um numero","Predefinição do prompt")
         //exibe o numero e obriga que seja do formato float , caso não seja aparace "nAn"
         document.write("<h1>O numero digitado foi "+ parseFloat(num)+ "<br><h1>");
       }
