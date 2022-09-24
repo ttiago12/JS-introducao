@@ -1,59 +1,44 @@
-<h1> ola</h1>
-<script>
-  ///////////// eu sou um comentario
+<!-- Referência: 
+  Oliveira, Cláudio Luís, V. e Humberto Augusto Piovesana Zanetti.
+   JAVASCRIPT DESCOMPLICADO - PROGRAMAÇÃO PARA WEB,IOT E DISPOSITIVOS MÓVEIS. 
+   Disponível em: Minha Biblioteca, Editora Saraiva, 2020. -->
+<!-- 
+  ///////////// OUTPUT SAIDA DE DADO
   // alert("Ola, eu estou sim");
   ///////////// output
   // console.log("teste2");
   // document.write("Nutela");
-  //////// input
-  // prompt("Qual é");
-  // guardar na var
-var nome = prompt ("Digite Seu Nome");
-alert("Bem vindo ao sistema " + nome);
+  //////// INPUT ENTRADA DE DADO
+  // var numero = prompt("MENSAGEM QUE VAI SER EXIBIDA JUNTO A POSSIBILIDADE DE ENTRADA DE DADO")
+  // guardar na var NUMERO
+ -->
 
-var nota1 = prompt ("Digite a 1°");
-var nota2 = prompt ("Digite a 2°");
-var nota3 = prompt ("Digite a 3°");
-var nota4 = prompt ("Digite a 4°");
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Introdução ao JavaScript - Conceito Onload</title> 
+    <meta charset="UTF-8"> 
+  </head>
+<!-- A função onload é ativada quando o carregamento da página é completado -->
+  <!--Atrela um envento ao carregamento da página  -->
+  <body onload="iniciar()"> 
+    <script type="text/javascript"> 
+      function iniciar() {
+        //informa que o carregamento foi finalizado
+        alert("Carregamento finalizado");
+        // escreve na página as seguintes informacoes
+        document.write("<h1>" + document.title + "</h1>");
+        document.write("Olá pessoal!<br>"); 
+        
+        //propriedades appName e appVersion, identifica o nome e a versão do navegador que o usuário está utilizando 
+        document.write ("Você está utilizando o navegador " + navigator. appName + ", versão " + navigator.appVersion); 
+      }
 
-var soma = (parseFloat(nota1)+
-           parseFloat(nota2)+
-           parseFloat(nota3)+
-           parseFloat(nota4));
-
-var media = soma/4 ;
-
-document.write(" A soma das notas é "+ soma + "<br>" ); 
-document.write("A media das notas é "+ media + "<br>");
-
-// se a media for menor que 6 reprovado
-// se não APROVADO
-
-////////////Condicionais
-if(media < 6){
-// se der verdade cai aqui 
-document.write("REPROVADO");
-}else{
-//  se der falso cai aqui
-document.write("APROVADO");
-}
-
-/////////////Arrays
-var fruteira = ["Banana","uva","pera"];
-
-/////criando objeto
-var pessoa = {nome:"Maria" , idade: 28 , programadora: false}
-////verificando atributo
-pessoa.nome
-
-var carro = {modelo : "RV", ano:2021, valor:150.00}
-/// verificando atributo
-carro.ano
-
-
-///////////////////////////LOPING
-    for(var i = 0;i < 10 ; i++){
-      documento.write("sou a posição"+ i + "<br>")
-    }
-
-</script>
+      function conta(){
+        var num = prompt("Digite um numero")
+        //exibe o numero e obriga que seja do formato float , caso não seja aparace "nAn"
+        document.write("<h1>O numero digitado foi "+ parseFloat(num)+ "<br><h1>");
+      }
+    </script> 
+  </body> 
+</html>
