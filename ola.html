@@ -2,7 +2,16 @@
   Oliveira, Cláudio Luís, V. e Humberto Augusto Piovesana Zanetti.
    JAVASCRIPT DESCOMPLICADO - PROGRAMAÇÃO PARA WEB,IOT E DISPOSITIVOS MÓVEIS. 
    Disponível em: Minha Biblioteca, Editora Saraiva, 2020. -->
-
+<!-- 
+  ///////////// OUTPUT SAIDA DE DADO
+  // alert("Ola, eu estou sim");
+  ///////////// output
+  // console.log("teste2");
+  // document.write("Nutela");
+  //////// INPUT ENTRADA DE DADO
+  // var numero = prompt("MENSAGEM QUE VAI SER EXIBIDA JUNTO A POSSIBILIDADE DE ENTRADA DE DADO")
+  // guardar na var NUMERO
+ -->
 
 <!DOCTYPE html>
 <html>
@@ -20,6 +29,12 @@
         // escreve na página as seguintes informacoes
         document.write("<h1>" + document.title + "</h1>");
         document.write("Olá pessoal!<br>"); 
+      }
+
+      function conta(){
+        var num = prompt("Digite um numero")
+        //exibe o numero e obriga que seja do formato float , caso não seja aparace "nAn"
+        document.write("<h1>O numero digitado foi "+ parseFloat(num)+ "<br><h1>");
       }
     </script> 
   </body> 
