@@ -1,5 +1,5 @@
-<h1> ola</h1>
-<script>
+
+
   ///////////// eu sou um comentario
   // alert("Ola, eu estou sim");
   ///////////// output
@@ -23,7 +23,7 @@ var soma = (parseFloat(nota1)+
 
 var media = soma/4 ;
 
-document.write(" A soma das notas é "+ soma + "<br>" ); 
+document.write("A soma das notas é "+ soma + "<br>" ); 
 document.write("A media das notas é "+ media + "<br>");
 
 // se a media for menor que 6 reprovado
@@ -56,4 +56,3 @@ carro.ano
       documento.write("sou a posição"+ i + "<br>")
     }
 
-</script>

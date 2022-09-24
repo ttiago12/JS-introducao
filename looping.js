@@ -1,5 +1,4 @@
-<h1> ola</h1>
-<script>
+
   ///////////////////////////LOPING
   // for(var i = 0; i < 10 ; i++){
   //     document.write("sou a posição" + i + "<br>");
@@ -18,5 +17,3 @@
   }
   }
 
-    
-</script>
