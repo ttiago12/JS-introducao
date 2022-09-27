@@ -11,10 +11,14 @@ function iniciar() {
 function clicou() {
   //// SOLICITA O NUMERO
   // parseInt tranforma 
-  var n1 = parseInt(prompt("x7_Digite um Numero"));
-  var n2 = parseInt(prompt("x7_Digite um Numero"));
-  var n3 = parseInt(prompt("x7_Digite um Numero"));
-  var n4 = parseInt(prompt("x7_Digite um Numero"));
+
+  //   o let é global
+  //  var é global
+
+  let n1 = parseInt(prompt("x7_Digite um Numero"));
+  let n2 = parseInt(prompt("x7_Digite um Numero"));
+  let n3 = parseInt(prompt("x7_Digite um Numero"));
+  let n4 = parseInt(prompt("x7_Digite um Numero"));
 
   media = (n1+n2+n3+n4)/4;
 
