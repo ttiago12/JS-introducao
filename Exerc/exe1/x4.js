@@ -1,3 +1,6 @@
+//  Ex004: Interagindo com partes do HTML (DOM)
+
+
 ////////FUNÇÃO LOGIN
 function clicou() {
   //// SOLICITA O NOME

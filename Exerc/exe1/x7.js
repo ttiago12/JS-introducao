@@ -1,3 +1,4 @@
+// Ex007: Calculando a média de um aluno
 function iniciar() {
 
   // utiliza a condição ate que chegue no numero 
@@ -9,6 +10,7 @@ function iniciar() {
 
 function clicou() {
   //// SOLICITA O NUMERO
+  // parseInt tranforma 
   var n1 = parseInt(prompt("x7_Digite um Numero"));
   var n2 = parseInt(prompt("x7_Digite um Numero"));
   var n3 = parseInt(prompt("x7_Digite um Numero"));
@@ -19,4 +21,8 @@ function clicou() {
   alert(media);
   frase.innerHTML = "<h1>Clique no botão para calcular a media<br>";
   result.innerHTML = "A media é : "+ media;
+  //verificar o tipo de variavel
+  alert(typeof media);
+
+  //   NaN siginifica : Not a number (Não é um numero)
 }

@@ -1,3 +1,4 @@
+// Ex006: Somando dois números
 function iniciar() {
 
   // utiliza a condição ate que chegue no numero 
