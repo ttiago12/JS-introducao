@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="calc_checked.js" defer></script>
+</head>
+<body>
+  <h1>Calculadora Aprimorada-Parametro-Checked</h1>
+  <!-- Atribuindo id para cada campo de input -->
+  <!-- Os id's irão funcionar na comunicação com a função -->
+  Valor 1: <input type="text" id="v1" value="0"><br> 
+  Valor 2: <input type="text" id="v2" value="0"><br> 
+  
+  <!-- Chama função ao selecionar o botão e informa o valor do parametro OP -->
+  <input type="radio"  id="somar" name = "op">Somar
+  <input type="radio"  id="subtrair" name = "op">Subtrair
+  <input type="radio" id="multiplicar" name = "op">Multiplicar
+  <input type="radio"  id="dividir" name = "op">Divisao<br>
+
+  <input type="button" value="Executar" onclick="calcular()"><br>
+
+  Resultado: <input type="text" id="res" value="0" readonly> 
+  
+</body>
+</html>

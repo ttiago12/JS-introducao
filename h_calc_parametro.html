@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="calc.js" defer></script>
+</head>
+<body>
+  
+  <h1>Calculadora Aprimorada-Parametro</h1>
+  <!-- Atribuindo id para cada campo de input -->
+  <!-- Os id's irão funcionar na comunicação com a função -->
+  Valor 1: <input type="text" id="v1" value="0"><br> 
+  Valor 2: <input type="text" id="v2" value="0"><br> 
+  
+  <!-- Chama função ao clicar no botão e informa o valor do parametro OP -->
+  <input type="button" value="Somar" onclick="calc('+')">
+  <input type="button" value="Subtrair" onclick="calc('-')">
+  <input type="button" value="Multiplicar" onclick="calc('*')">
+  <input type="button" value="Dividir" onclick="calc('/')"><br>
+
+  <br>Resultado: <input type="text" id="res" value="0" readonly>
+</body>
+</html>
